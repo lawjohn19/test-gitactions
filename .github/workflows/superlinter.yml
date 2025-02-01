@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: super-linter/super-linter@b92721f792f381cedc002ecdbb9847a15ece5bb8
+        uses: super-linter/super-linter@v7
         
       - name: Super-Linter
         uses: super-linter/super-linter@v7.1.0
